@@ -1,0 +1,5 @@
+venv
+Brats2020_TrainingData
+Brats2020_ValidationData
+brats_3d.hdf5
+r2unet2_plus_3d_final_model.hdf5
