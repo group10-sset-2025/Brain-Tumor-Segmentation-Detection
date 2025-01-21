@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="square"></div>
+            <span>Neurodetect</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="result-page">
+        <div class="result-overlay"></div>
+        <div class="result-container">
+            <!-- Left Side: Uploaded MRI -->
+            <div class="mri-container">
+                <div class="image-title">Uploaded MRI</div>
+                <img src="uploaded-mri.jpg" alt="Uploaded MRI" class="uploaded-mri">
+            </div>
+        
+            <!-- Right Side: Segmented MRI -->
+            <div class="segmented-container">
+                <div class="image-title">Segmented MRI</div>
+                <img src="segmented-mri.jpg" alt="Segmented MRI" class="segmented-mri">
+            </div>
+        
+            <!-- Tumor Type -->
+            <div class="tumor-type">
+                <h3>Type of Tumor: Glioblastoma</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

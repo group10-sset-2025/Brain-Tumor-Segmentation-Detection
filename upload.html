@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload MRI Scan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="square"></div>
+            <span>Neurodetect</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="upload-page">
+        <div class="upload-overlay"></div>
+        <div class="upload-container">
+            <h2>Upload Your MRI Scan</h2>
+            <!-- Update the form action to go to result.html -->
+            <form action="result.html" method="POST" enctype="multipart/form-data">
+                <input type="file" id="mriUpload" name="mriUpload" accept="image/*">
+                <!-- The View Result button now submits the form and redirects to result.html -->
+                <button type="submit" class="view-result-btn">View Result</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
